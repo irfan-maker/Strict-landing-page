@@ -1,0 +1,775 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+body{
+	background-color: #F6F9F9;
+	overflow-x: hidden;
+}
+.col-md-12{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 99; 
+  border: none;
+  outline: none; 
+  background-color: #15A4FA; 
+  color: white; 
+  cursor: pointer; 
+  padding: 5px 10px;
+  border-radius: 3px; 
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555; 
+}
+
+
+
+/*************************************************
+	*** header-section CSS code start here ***
+*************************************************/
+.header-section{
+	background: #F6F9F9;
+	padding: 0px 0px 0px 0px;
+	z-index: 99;
+}
+.header-section .navbar{
+	z-index: 99;
+}
+.header-section .bg-light {
+    background-color: #F6F9F9!important;
+    z-index: 99;
+}
+.header-section .navbar-nav{
+	margin-top: -8px;
+	background: #F6F9F9;
+	z-index: 99;
+}
+.header-section .navbar-nav .active .nav-link{
+	color: #15A4FA;
+}
+.header-section .nav-item{
+	margin-left: 5px;
+}
+.header-section .nav-item .nav-link{
+	font-size: 16px;
+	color: #000;
+	transition: 1s;
+}
+.header-section .nav-item .nav-link:hover{
+	color: #15A4FA;
+}
+/***********************************************
+	*** header-section CSS code end here ***
+***********************************************/
+
+
+
+/*************************************************
+	*** banner-section CSS code start here ***
+*************************************************/
+.banner-section{
+	width: 100%;
+	padding: 0px 0px;
+	text-align: center;
+	margin-top: -48px;
+}
+.banner-content{
+	padding: 60px 0px;
+}
+.carousel-item h1{
+	font-family: ;
+	font-size: 85px;
+	font-weight: 400;
+	line-height: 100px;
+	letter-spacing: 1px;
+	color: #fff;
+	margin-top: 110px;
+}
+.carousel-item .divider{
+	width: 45%;
+	height: 2px;
+	background: #15A4FA;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+.carousel-item p{
+	font-family: ;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #fff;
+	margin-top: 20px;
+}
+.carousel-item .btn{
+	border: 1px solid #15A4FA;
+	margin-top: 20px;
+	padding: 10px 35px;
+	margin-bottom: 170px;
+}
+.carousel-item .btn:hover{
+	background: #15A4FA;
+	color: #fff;
+}
+.banner-inner-1{
+	background: url(../images/banner.png) center top no-repeat;
+	background-size: cover;
+}
+.banner-inner-2{
+	background: url(../images/banner-2.jpg) center top no-repeat;
+	background-size: cover;
+}
+.banner-inner-3{
+	background: url(../images/banner-3.jpg) center top no-repeat;
+	background-size: cover;
+}
+/***********************************************
+	*** header-section CSS code end here ***
+***********************************************/
+
+
+
+/***********************************************
+	*** typo-section CSS code start here ***
+***********************************************/
+.typo-section{
+	text-align: center;
+	margin-bottom: -20px;
+}
+.row{
+	background-color: #F6F9F9;
+}
+.typo-section h2{
+	font-family: ;
+	font-size: 40px;
+	font-weight: 400;
+	color: #2D3950;
+}
+.typo-section p{
+	color: #AAABAB;
+	font-weight: 400;
+	margin-top: 25px;
+}
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    background: #F6F9F9;
+}
+/*********************************************
+	*** typo-section CSS code end here ***
+*********************************************/
+
+
+
+/**************************************************
+	*** feature-section CSS code start here ***
+**************************************************/
+.feature-section{
+    background: #fff;
+    padding: 40px 0px 20px 0px;
+}
+.feature-section .web{
+	display: block;
+}
+.feature-section .responsive{
+	display: none;
+}
+.feature-card{
+	text-align: center;
+	padding: 40px 0px;
+	background-color: #fff;
+}
+.feature-card h4{
+	margin-top: 20px;
+	font-weight: 400;
+	color: #6D7381;
+	margin-bottom: 15px;
+}
+.feature-card p{
+	color: #AAABAB;
+}
+/************************************************
+	*** feature-section CSS code end here ***
+************************************************/
+
+
+
+/****************************************************
+	*** portfolio-section CSS code start here ***
+****************************************************/
+.portfolio-section{
+	text-align: center;
+}
+.portfolio-section h2{
+	font-family: ;
+	font-size: 40px;
+	font-weight: 400;
+	color: #2D3950;
+}
+.portfolio-section p{
+	margin-top: 15px;
+	color: #AAABAB;
+}
+.portfolio-image{
+	background: #F6F9F9;
+	margin-top: -72px;
+	padding: 0px 150px 85px 150px;
+}
+.portfolio-img{
+	margin-top: 30px;
+}
+.portfolio-hover{
+	width: 100%;
+	height: 0px;
+	background: rgba(21, 164, 250, .8);
+	position: relative;
+	border-radius: 3px;
+}
+.portfolio-img ul{
+	display: none;
+	margin-top: 31%;
+}
+.portfolio-hover:hover ul{
+	display: block;
+}
+.portfolio-img ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0px 2px;
+}
+.portfolio-img ul li a i{
+	width: 35px;
+	height: 35px;
+	border-radius: 3px;
+	border: 1px solid #fff;
+	color: #fff;
+	line-height: 35px;
+	transition: 1s;
+}
+.portfolio-img ul li a i:hover{
+	background: #15A4FA;
+}
+.portfolio-inner{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.portfolio-inner:hover .portfolio-hover{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+}
+/**************************************************
+	*** portfolio-section CSS code end here ***
+**************************************************/
+
+
+
+/**************************************************
+	*** contact-section CSS code start here ***
+**************************************************/
+.contact-section{
+	text-align: center;
+}
+.contact-inner{
+	background: url(../images/bg.png) center top no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 60px 0px 0px 0px;
+}
+.contact-inner h2{
+	font-family: ;
+	font-size: 40px;
+	font-weight: 400;
+	color: #fff;
+}
+.contact-inner p{
+	margin-top: 15px;
+	font-family: ;
+	font-size: 16px;
+	color: #A7A8A8;
+	margin-bottom: -10px;
+}
+.main-form{
+	text-align: center;
+	margin: 0px auto;
+}
+.contact-section form{
+	text-align: left;
+	padding: 10px 0px 80px 0px;
+}
+.contact-section .form-control{
+	margin: 15px 0px;
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #999999;
+	padding: 24px;
+}
+.contact-section .checkbx{
+	float: left;
+	margin-left: 20px;
+}
+.contact-section label{
+	color: #fff;
+}
+.contact-section .btn{
+	float: right;
+	padding: 8px 35px;
+}
+/**************************************************
+	*** contact-section CSS code start here ***
+**************************************************/
+
+
+
+/*************************************************
+	*** header-section CSS code start here ***
+*************************************************/
+.footer-section{
+	text-align: left;
+}
+.footer-inner{
+	padding: 20px 110px 2px 110px;
+	background-color: #fff;
+}
+.footer-inner p{
+	line-height: 37px;
+}
+.footer-inner .social-link{
+	text-align: center;
+}
+.footer-inner .social-link ul{
+	float: right;
+}
+.footer-inner .social-link ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0px 2px;
+}
+.footer-inner .social-link ul li a i{
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	background-color: #15A4FA;
+	border: 1px solid #15A4FA;
+	border-radius: 3px;
+	color: #fff;
+	transition: 1s;
+}
+.footer-inner .social-link ul li a i:hover{
+	background: #fff;
+	border: 1px solid #15A4FA;
+	color: #15A4FA;
+}
+
+
+/***********************************************
+	*** footer-section CSS code end here ***
+***********************************************/
+
+
+/*********************************************
+	*** responsive CSS code start here ***
+*********************************************/
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  	.typo-section{
+		margin-bottom: -20px;
+	}
+	.typo-section p {
+	    color: #AAABAB;
+	    font-weight: 400;
+	    margin-top: 25px;
+	    font-size: 17px;
+	}
+	.feature-section .web{
+		display: none;
+	}
+	.feature-section .responsive{
+		display: block;
+	}
+	.portfolio-img ul {
+	    display: none;
+	    margin-top: 30%;
+	}
+	.portfolio-image {
+	    background: #F6F9F9;
+	    margin-top: -72px;
+	    padding: 0px 120px 85px 120px;
+	}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+	.header-section .navbar{
+	  	text-align: center;
+	  	margin-top: 0px;
+	 }
+	 .header-section .navbar-nav {
+	    margin-top: 10px;
+	    background: #F6F9F9;
+	}
+	 .header-section .nav-item{
+	 	transition: 1s;
+	 }
+	 .header-section .nav-item .nav-link{
+	 	transition: 1s;
+	 }
+	 .header-section .nav-item:hover{
+	 	background: #0ce;
+	 }
+	 .header-section .nav-item .nav-link:hover{
+	 	color: #fff;
+	 }
+	 .banner-content {
+	    padding: 30px 0px;
+	}
+	.carousel-item h1 {
+	    font-size: 70px;
+	    line-height: 80px;
+	    margin-top: 55px;
+	}
+	.carousel-item .btn {
+	    margin-top: 5px;
+	    margin-bottom: 85px;
+	}
+	.typo-section{
+		margin-bottom: -20px;
+	}
+	.typo-section h2 {
+	    font-size: 35px;
+	}
+	.typo-section p {
+		font-size: 13px;
+		margin-bottom: 0px;
+	}
+	.jumbotron-fluid {
+	    padding: 40px 0px;
+	}
+
+	.feature-section .web{
+		display: none;
+	}
+	.feature-section .responsive{
+		display: block;
+	}
+	.feature-card {
+	    padding: 20px 0px;
+	}
+	.feature-card h4 {
+	    margin-bottom: 10px;
+	    font-size: 20px;
+	}
+	.portfolio-section{
+		padding: 10px 0px 0px 0px;
+	}
+	.portfolio-section .col-md-4 {
+	    -ms-flex: 0 0 33.333333%;
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	}
+	.portfolio-section h2 {
+	    font-size: 35px;
+	}
+	.portfolio-image {
+	    background: #F6F9F9;
+	    margin-top: -72px;
+	    padding: 0px 100px 85px 100px;
+	}
+	.portfolio-img ul {
+	    display: none;
+	    margin: 29% 0%;
+	}
+	.contact-inner h2 {
+	    font-size: 35px;
+	}
+	.contact-section form {
+	    padding: 0px 0px 80px 0px;
+	}
+	.footer-section .col-md-6 {
+	    -ms-flex: 0 0 50%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	    text-align: center;
+	}
+	.footer-inner p {
+	    line-height: 24px;
+	    margin-bottom: 0px;
+	}
+	.footer-inner .social-link {
+	    text-align: center;
+	    padding-bottom: 70px;
+	}
+	.footer-section .footer-link ul{
+		width: 100%;
+	}
+
+	  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  	
+  	.header-section{
+  		padding: 0px;
+  	}
+  	.header-section .navbar{
+	  	text-align: center;
+	  	margin-top: 0px;
+	 }
+	 .header-section .navbar-nav {
+	    margin-top: 10px;
+	    background: #F6F9F9;
+	}
+	 .header-section .nav-item{
+	 	transition: 1s;
+	 }
+	 .header-section .nav-item .nav-link{
+	 	transition: 1s;
+	 }
+	 .header-section .nav-item:hover{
+	 	background: #0ce;
+	 }
+	 .header-section .nav-item .nav-link:hover{
+	 	color: #fff;
+	 }
+	 .banner-content {
+	    padding: 40px 0px;
+	}
+	 .carousel-item h1 {
+	    font-size: 60px;
+	    line-height: 70px;
+	    margin-top: 0px;
+	}
+	.carousel-item p {
+	    padding: 0px 43px;
+	}
+	.carousel-item .btn {
+	    margin-top: 10px;
+	    margin-bottom: 20px;
+	}
+	 .typo-section{
+		margin-bottom: -20px;
+	}
+	.typo-section h2 {
+	    font-size: 30px;
+	}
+	.typo-section p {
+		font-size: 15px;
+		padding: 0px 20px;
+		margin-bottom: 0px;
+	}
+	.feature-section .web{
+		display: none;
+	}
+	.feature-section .responsive{
+		display: block;
+	}
+	.feature-card {
+	    padding: 15px 0px;
+	}
+	.portfolio-image {
+	    background: #F6F9F9;
+	    margin-top: -72px;
+	    padding: 0px 89px 85px 89px;
+	}
+	.portfolio-section h2 {
+	    font-size: 30px;
+	}
+	.portfolio-section .col-md-4 {
+	    -ms-flex: 0 0 33.333333%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.footer-section .col-md-6 {
+	    -ms-flex: 0 0 50%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	    text-align: center;
+	}
+	.portfolio-img ul {
+	    display: none;
+	    margin: 30% 0%;
+	}
+	.footer-section .footer-link{
+		text-align: center;
+	}
+	.footer-section .footer-link ul{
+		width: 100%;
+	}
+	.contact-inner h2 {
+	    font-size: 30px;
+	}
+	.contact-section form {
+	    text-align: left;
+	    padding: 0px 0px 80px 0px;
+	}
+	.footer-inner p {
+	    line-height: 24px;
+	    margin-bottom: 0px;
+	}
+	.footer-inner .social-link {
+	    text-align: center;
+	    padding-bottom: 70px;
+	}
+	.footer-section .footer-link ul{
+		width: 100%;
+	}
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  	.header-section{
+  		padding: 0px;
+  	}
+  	.header-section .navbar{
+	  	text-align: center;
+	  	margin-top: 0px;
+	 }
+	 .header-section .navbar-nav {
+	    margin-top: 10px;
+	    background: #F6F9F9;
+	}
+	 .header-section .nav-item{
+	 	transition: 1s;
+	 }
+	 .header-section .nav-item .nav-link{
+	 	transition: 1s;
+	 }
+	 .header-section .nav-item:hover{
+	 	background: #0ce;
+	 }
+	 .header-section .nav-item .nav-link:hover{
+	 	color: #fff;
+	 }
+	 .carousel-item h1 {
+	    font-size: 70px;
+	    line-height: 80px;
+	    margin-top: 0px;
+	}
+	.carousel-item p {
+	    padding: 0px 41px;
+	}
+	.carousel-item .btn {
+	    margin-top: 10px;
+	    margin-bottom: 20px;
+	}
+	 .typo-section{
+		margin-bottom: -20px;
+	}
+	.typo-section h2 {
+	    font-size: 25px;
+	}
+	.typo-section p {
+		font-size: 14px;
+		padding: 0px 20px;
+	}
+	.feature-section .web{
+		display: none;
+	}
+	.feature-section .responsive{
+		display: block;
+	}
+	.feature-card {
+	    padding: 15px 0px;
+	}
+	.portfolio-section h2 {
+	    font-size: 22px;
+	}
+	.portfolio-section p {
+	    margin-top: 15px;
+	    font-size: 16px;
+	}
+	.portfolio-section .col-md-4 {
+	    -ms-flex: 0 0 33.333333%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
+	.portfolio-image {
+	    background: #F6F9F9;
+	    margin-top: -72px;
+	    padding: 0px 0px 85px 0px;
+	}
+	.contact-inner h2 {
+	    font-size: 25px;
+	}
+	.contact-section form {
+	    padding: 0px 0px 80px 0px;
+	}
+	.footer-section .col-md-6 {
+	    -ms-flex: 0 0 50%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	    text-align: center;
+	}
+	.portfolio-img ul {
+	    display: none;
+	    margin: 25% 0%;
+	}
+	.footer-section .footer-link{
+		text-align: center;
+	}
+	.footer-section .footer-link ul{
+		width: 100%;
+	}
+	.footer-inner {
+	    padding: 20px 0px 2px 0px;
+	    background-color: #fff;
+	}
+	.footer-inner p {
+	    line-height: 24px;
+	    margin-bottom: 0px;
+	}
+	.footer-inner .social-link {
+	    text-align: center;
+	    padding-bottom: 70px;
+	}
+	.footer-section .footer-link ul{
+		width: 100%;
+	}
+  
+}
+
+/*******************************************
+	*** responsive CSS code end here ***
+*******************************************/
